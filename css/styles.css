@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body, div, ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 { 
+    margin: 2rem auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+div.heading {
+    padding: 1rem;
+    background-color: #60A5DA;
+    color: white;
+    font-weight: lighter;
+}
+
+div.heading h1 {
+    padding: 1rem;
+    margin: 0;
+}
+
+div.main-body {
+    max-width: 62rem;
+    padding: 4rem auto 2rem;
+    margin: 4rem auto 2rem;
+}
+
+p, li {
+    line-height: 150%;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    margin: 1rem auto;
+}
+
+a.links {
+    color: #60A5DA;
+    text-decoration: none;
+}
+
+a.links:hover {
+    text-decoration: underline;
+}
+
+hr {
+    position: relative;
+    width: 100%;
+}
+
+.footer {
+    font-family: sans-serif;
+    color: rgb(226, 226, 226);
+    position: relative;
+    background-color: #434A50;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    height: 100%;
+    min-height: 20rem;
+    min-width: 27rem;
+    max-width: 51rem;
+}
+
+.container div {
+    display: inline-block;
+    position: absolute;
+    top: 2.5rem;
+    max-width: 17rem;
+    min-width: 9rem;
+    bottom: 2rem;
+}
+
+li.footer-list {
+    list-style: none;
+    margin: 0;
+}
+
+.footer-links {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.Privacy {
+    left: 40%;
+}
+
+.KiT {
+    right: 0;
+}
+
+.end-line {
+    padding: 1.6rem;
+}
